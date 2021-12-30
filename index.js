@@ -6,18 +6,12 @@ import savePassword from './utils/savePassword.js'
 import clipboardy from './node_modules/clipboardy/index.js'
 const log = console.log
 commander.version('1.0.0').description('Simple Password Generator')
-// commander
-//     .command('generate')
-//     .action(()=>{
-//         console.log('Generated');
-//     })
-//     .parse()
 commander
     .option('-l, --length <number>',
     'length of password'
     ,'8')
     .option('-s, --save',
-    'save password to password.txt')
+    'save password to password.csv')
     .option('-nn, --no-number',
     'remove numbers')
     .option('-ns, --no-symbols',
