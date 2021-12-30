@@ -1,0 +1,19 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "Simple Password Generator using Command Line",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramansh Pathak",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "clipboardy": "^3.0.0",
+    "commander": "^8.3.0"
+  }
+}
