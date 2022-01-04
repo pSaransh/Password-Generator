@@ -20,7 +20,6 @@ commander
     .option('-ns, --no-symbols',
     'remove symbols')
     .parse()
-
 const {length,msg,save,numbers,symbols} = commander.opts()
 // get generated password
 const generatedPassword = createPassword(length,numbers,symbols)
